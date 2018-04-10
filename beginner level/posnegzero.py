@@ -1,7 +1,7 @@
-a=int(input('Enter the number:'))
+a=int(input(''))
 if a < 0:
-    print('negative')
+    print('Negative')
 if a==0:
-    print('zero')
+    print('Zero')
 if a>=1:
-    print('positive')
+    print('Positive')
