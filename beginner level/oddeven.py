@@ -1,6 +1,7 @@
-a=int(input('Input:'))
+a=int(input(''))
 if a%2==0:
-  print('Output: \nEven')
+  print('Even')
 else:
-  print('Output: \nOdd')
+  print('Odd')
+  
   
