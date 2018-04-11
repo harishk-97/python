@@ -5,4 +5,6 @@ elif (l1>='A' and l1<='Z'):
   print('Alphabet')
 else:
   print('No')
+    
+    
   
