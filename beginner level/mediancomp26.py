@@ -1,0 +1,6 @@
+p=int(input())
+l=input().split()
+l=list(map(int,l))
+m=sorted(l)
+p=int(p/2)
+print(m[p])
