@@ -1,0 +1,26 @@
+m=input()
+m=list(map(int,m))
+n=len(m)
+if (n<2):
+  if(m[0]==1):
+    print('One')
+  elif(m[0]==0):
+    print('Zero')
+  elif(m[0]==2):
+    print('Two')
+  elif(m[0]==3):
+    print('Three')
+  elif(m[0]==4):
+    print('Four')
+  elif(m[0]==5):
+    print('Five')
+  elif(m[0]==6):
+    print('Six')
+  elif(m[0]==7):
+    print('Seven')
+  elif(m[0]==8):
+    print('Eight')
+  elif(m[0]==9):
+    print('Nine')
+if(n==2):
+    print('Ten')
