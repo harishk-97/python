@@ -1,2 +1,2 @@
-z=int(input())
-print(chr(z+64))
+ky=int(input())
+print(chr(ky+64))
