@@ -1,0 +1,6 @@
+g=input().split()
+g=list(map(int,g))
+b=input().split()
+b=list(map(int,b))
+sorted(b)
+print(b[g[1]-1])
