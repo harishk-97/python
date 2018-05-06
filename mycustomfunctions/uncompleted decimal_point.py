@@ -3,7 +3,7 @@ def decimal_point(number,nodp):
   d=len(str(a))
   b=str(number)
   c=len(b)
-  f=c-d+1
+  f=c-d-1
   g=nodp+d+1
   h=''
   if(nodp<f):
@@ -13,12 +13,10 @@ def decimal_point(number,nodp):
     for i in range(g):
       if(i<c):
         h+=b[i]
-      else:
+      elif(i>=c):
         h+='0'
-      print(h)
   else:
     h=b
   print(h)
-decimal_point(23.235078,8)
       
   
