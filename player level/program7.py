@@ -6,7 +6,7 @@ for i in range(a1):
     if(j==0):
       print(b[j].upper(),end='')
     else:
-      print(b[j],end='')
+      print(b[j].lower(),end='')
   if(i!=a1-1):
     print(' ',end='')
  
