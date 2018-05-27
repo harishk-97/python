@@ -1,0 +1,13 @@
+d=int(input())
+i=0
+m=0
+p=0
+while(i<=d):
+  if(i==d):
+    p=1
+  i=2**m
+  m+=1
+if(p==0):
+  print('no')
+else:
+  print('yes')
