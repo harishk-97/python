@@ -1,0 +1,5 @@
+sri=input().split()
+sri=list(map(int,sri))
+sun=input().split()
+sun=list(map(int,sun))
+print((sun.index(sri[1]))+1)
