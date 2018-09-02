@@ -7,7 +7,7 @@ for i in range(len(s)):
         a.append((ord(s[i][j])-96))
     elif(ord(s[i][j])>64 and ord(s[i][j])<91):
       if (ord(s[i][j])-64) not in a:
-        a.append((ord(s[i][j])-6))
+        a.append((ord(s[i][j])-64))
 if(sum(a)==351):
   print('yes')
 else:
